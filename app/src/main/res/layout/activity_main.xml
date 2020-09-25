@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/highscore"
+        android:id="@+id/yourcoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Coin 15"
+        android:gravity="center"
+        android:textSize="33sp"
+        />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My HighScore 0"
+        android:gravity="center"
+        android:textSize="33sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    
+
+</RelativeLayout>
